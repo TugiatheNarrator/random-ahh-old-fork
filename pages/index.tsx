@@ -21,7 +21,7 @@ const MotionVStack = motion(VStack)
  * Users are prompted to enter a password inside a **terminal-like input field**.
  * - The default placeholder `"PASSWORD"` is shown initially and then cleared.
  * - When the user types and presses **Enter**, the input is validated:
- *   - If the password is `"kronos"` (case-insensitive), authentication succeeds and
+ *   - If the password is `"brainrot"` (case-insensitive), authentication succeeds and
  *     the user is redirected to the Main Menu.
  *   - Otherwise, nothing happens until the correct password is entered.
  * - The user can also press **Escape** at any moment to return to the Home page.
@@ -65,7 +65,7 @@ const AuthenticationPage = () => {
   }
 
   const handleSubmit = useCallback(() => {
-    if (password.toLowerCase() === 'kronos') {
+    if (password.toLowerCase() === 'brainrot') {
       play(SoundKey.AUTHENTICATION_SUCCESS)
       setSubmitting(true)
       setTimeout(() => {
