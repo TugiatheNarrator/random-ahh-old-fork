@@ -1,9 +1,9 @@
 import { Super, SuperResult } from '@/types'
 
 export const supers: Array<Super> = [
-  { name: 'Millennials', slug: 'millennials', threatRating: 2.1, description: 'Social media', img: 'universal_man.png' },
-  { name: 'Generation Z', slug: 'generation-z', threatRating: 2.5, description: 'Smartphone', img: 'psycwave.png' },
-  { name: 'Generation Alpha', slug: 'generation-alpha', threatRating: 4.1, description: 'iPad', img: 'everseer.png' },
+  { name: 'Millennials', slug: 'millennials', threatRating: 2.1, description: 'Computer, Social media', img: 'millennials.png' },
+  { name: 'Generation Z', slug: 'generation-z', threatRating: 2.5, description: 'Smartphone, Social Media,', img: 'generation-z.png' },
+  { name: 'Generation Alpha', slug: 'generation-alpha', threatRating: 4.1, description: 'iPad, Social Media, AI', img: 'generation-alpha.png' },
 ]
 
 export const supersResult: Array<SuperResult> = [
@@ -34,7 +34,7 @@ export const supersResult: Array<SuperResult> = [
     description:
       'Impossible to corrupt ',
     lastActiveRecord: '31.12.45',
-    locationKnown: true,
+    locationKnown: false,
     threatRating: '6.9 Exercise moderate caution',
   },
   {
@@ -44,7 +44,17 @@ export const supersResult: Array<SuperResult> = [
     description:
       'Impossible to corrupt ',
     lastActiveRecord: '31.12.27',
-    locationKnown: true,
+    locationKnown: false,
     threatRating: '9.3 Exercise high caution',
+  },
+  {
+    name: 'Generation Beta',
+    slug: 'generation-beta',
+    img: 'generation-beta.png',
+    description:
+      'iPad, Social media, AI ',
+    lastActiveRecord: '31.12.39',
+    locationKnown: false,
+    threatRating: '6.8 Exercise moderate caution',
   },
 ]
