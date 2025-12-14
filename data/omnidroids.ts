@@ -14,4 +14,16 @@ export const omnidroids: Array<Omnidroid> = [
     description: 'An animated web series created by Alexey Gerasimov and released through YouTube videos and Shorts on his channel, DaFuq!?Boom!',
     img: 'skibidi-toilet.png',
   },
+  {
+    slug: 'italian-brainrot',
+    name: 'Italian Brainrot',
+    description: 'A series of Internet memes that emerged in early 2025 characterized by surrealist and absurd images of AI-generated creatures who are given pseudo-Italian names',
+    img: 'italian-brainrot.png',
+  },
+  {
+    slug: '67',
+    name: '67',
+    description: 'An Internet meme and slang term that emerged in 2025 on TikTok, Instagram Reels,[1] and then later spread to YouTube Shorts',
+    img: '67.png',
+  },
 ]
