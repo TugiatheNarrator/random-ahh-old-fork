@@ -8,7 +8,7 @@ import { NextSeo } from 'next-seo'
  * @name IslandOperationsPage
  *
  * @description
- * Renders the final design page for Omnidroid v.10, part of the Kronos project.
+ * Renders the final design page for 67, part of the Brainrot project.
  *
  * @author Giuseppe Del Campo
  */
