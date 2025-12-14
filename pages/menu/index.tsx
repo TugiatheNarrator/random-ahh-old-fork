@@ -17,8 +17,8 @@ import { NextSeo } from 'next-seo'
  * - **Generations Database** (navigates into Generations submenu)
  *
  * Supers-specific navigation provides access to:
- * - The complete **Supers List** (starting from the first available encounter).
- * - The **Search Super** tool for manually querying specific Supers.
+ * - The complete **Generations List** (starting from the first available encounter).
+ * - The **Search Generation** tool for manually querying specific Supers.
  *
  * @remarks
  * Delegates menu rendering to {@link MenuLayout}.
