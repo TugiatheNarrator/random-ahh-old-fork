@@ -15,7 +15,7 @@ const MotionVStack = motion(VStack)
  * @name CountdownPage
  *
  * @description
- * This page displays a countdown timer for the launch of Project Kronos.
+ * This page displays a countdown timer for the launch of Project Brainrot.
  *
  * @author Giuseppe Del Campo
  */
@@ -24,7 +24,7 @@ const CountdownPage = () => {
   const styles = useSlotRecipe({ key: 'countdownPage' })({}) as Record<string, BoxProps & StackProps>
 
   const title = `Countdown to Activation | Syndrome Main Computer`
-  const description = `The final countdown to the activation of Kronos Project. Monitor the launch sequence in real time and prepare for project deploy.`
+  const description = `The final countdown to the activation of Brainrot Project. Monitor the launch sequence in real time and prepare for project deploy.`
 
   useEffect(() => {
     const handleEsc = (e: KeyboardEvent) => {
@@ -70,7 +70,7 @@ const CountdownPage = () => {
         exit={{ opacity: 0 }}
         transition={{ duration: 0.5, ease: 'easeInOut' }}
       >
-        <Text {...styles.title}>Project Kronos Countdown</Text>
+        <Text {...styles.title}>Project Brainrot Countdown</Text>
 
         <Box py={14} w="full">
           <Timer />
@@ -79,7 +79,7 @@ const CountdownPage = () => {
         <Text {...styles.title}>Until Launch</Text>
       </MotionVStack>
 
-      <ControlsHint showNavButtons showControlsHint label={'This is the countdown for Project Kronos. If you are Mr. Incredible.. you better run.'} />
+      <ControlsHint showNavButtons showControlsHint label={'This is the countdown for Project Brainrot. If you are a normal human, you better run.'} />
     </>
   )
 }
