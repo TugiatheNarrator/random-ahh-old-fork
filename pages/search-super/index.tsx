@@ -42,7 +42,7 @@ const SearchSuperPage = () => {
   const styles = useSlotRecipe({ key: 'searchSuperPage' })({}) as Record<string, BoxProps & StackProps & TextProps>
   const router = useRouter()
 
-  const title = 'Search Super | Syndrome Main Computer'
+  const title = 'Search Generation | Syndrome Main Computer'
   const description =
     'Search for Supers in the Omnidroid database. Discover which Supers were defeated in encounters and which ones are still active.'
 
